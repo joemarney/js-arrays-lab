@@ -259,9 +259,9 @@ Complete Exercise 15 in the space below:
 */
 let total = 0;
 
-numArrays.forEach((x) => {
-  x.forEach((x) => {
-    total += x;
+numArrays.forEach((array) => {
+  array.forEach((num) => {
+    total += num;
   });
 });
 
